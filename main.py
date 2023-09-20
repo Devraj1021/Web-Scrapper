@@ -12,10 +12,10 @@ else:
 
 soup = BeautifulSoup(response.text, 'html.parser')
 
-restaurants = soup.find_all('div', attrs={'class':'restnt-info cursor'})
+restaurants = soup.find_all('div', class_='restnt-main-wrap clearfix')
 
 for restaurant in restaurants:
-    print(restaurant.find('a').text)
-    # print(restaurant.find('p').text)
-    # print(restaurant.find('span').text)
+    print(restaurant.find(class_='restnt-name ellipsis').text)
+    print(restaurant.find(class_='restnt-rating rating-4 hide').text)
     print()
+
