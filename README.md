@@ -31,7 +31,10 @@ This project relies on the following Python libraries:
    requests
    beautifulsoup4
 
-====================================================================================================================================================================Project Title: Web Scraping Top Restaurants from MouthShut
+
+## More Details
+
+Project Title: Web Scraping Top Restaurants from MouthShut
 
 Description:
 
